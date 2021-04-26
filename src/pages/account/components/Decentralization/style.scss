@@ -1,0 +1,31 @@
+.Decentralization {
+	th {
+		&:first-child {
+			text-align: left;
+			width: 20%;
+			padding: 13px 0px 13px 13px !important;
+		}
+		&:last-child {
+			width: 20%;
+			text-align: right;
+			padding: 13px 13px 13px 0px !important;
+		}
+		width: 60%;
+		text-align: center;
+	}
+	td {
+		&:first-child {
+			text-align: left;
+			width: 20%;
+			padding: 13px 0px 13px 13px !important;
+		}
+		&:last-child {
+			width: 20%;
+			text-align: right;
+			padding: 13px 13px 13px 0px !important;
+		}
+	}
+}
+.Decentralization__form--button {
+	margin-top: 30px;
+}

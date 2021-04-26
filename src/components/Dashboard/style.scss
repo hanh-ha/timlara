@@ -1,0 +1,49 @@
+.Dashboard {
+	padding: 20px;
+	h1 {
+		color: #005776;
+		font-size: 22px;
+		margin-bottom: 20px;
+	}
+	> div {
+		padding: 25px 32px;
+		width: 80%;
+		margin: 0 auto;
+		background: white;
+		border-radius: 10px;
+		box-shadow: 3px 3px 5px 0px #888888;
+
+		.dashboard-item {
+			background: #f28300;
+			border-radius: 7px;
+			padding: 15px;
+			text-align: center;
+			.title {
+				display: block;
+				color: #f1f1f1;
+				margin-bottom: 5px;
+				font-size: 18px;
+			}
+			.number {
+				color: #005776;
+				font-size: 25px;
+				font-weight: 600;
+			}
+		}
+	}
+}
+@media only screen and (max-width: 769px) {
+	.Dashboard {
+		> div {
+			width: 100%;
+			.dashboard-item {
+				.title {
+					font-size: 14px;
+				}
+				.number {
+					font-size: 20px;
+				}
+			}
+		}
+	}
+}

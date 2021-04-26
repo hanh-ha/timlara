@@ -1,0 +1,111 @@
+@import '../../../../assets/less/variables';
+.informationStore {
+	.form-modal__content {
+		padding: 20px;
+		.informationStore__item {
+			.content {
+				padding: 10px;
+				background: #ffe9d4;
+				border-radius: 7px;
+				margin-bottom: 10px;
+				.content__item {
+					input {
+						width: 250px;
+					}
+				}
+			}
+			label {
+				font-size: 14px;
+				margin: 15px 0px;
+				font-weight: 600;
+			}
+		}
+		form {
+			.category__group {
+				display: flex;
+				justify-content: space-between;
+				select {
+					background: $color-background;
+					width: 150px;
+					color: $color-family;
+				}
+			}
+			.filter-group {
+				.lable-group {
+					margin-bottom: 15px;
+					span:first-child {
+						margin-right: 100px;
+					}
+					span {
+						font-size: 14px;
+						font-weight: 600;
+					}
+				}
+				.filter-item {
+					.filter-group--item {
+						display: flex;
+						margin-bottom: 20px;
+						.lable {
+							width: 25%;
+							margin-right: 10px;
+							padding: 0;
+							height: 35px;
+						}
+						.text-content {
+							width: 75%;
+							padding: 0;
+							input {
+								height: 35px;
+								margin-bottom: 3px;
+								width: 100%;
+								&::placeholder {
+									font-size: 13px;
+								}
+							}
+							.form-button {
+								display: flex;
+								flex-wrap: wrap;
+								margin-top: 7px;
+								button {
+									display: flex;
+									align-items: center;
+									padding: 5px;
+									border-radius: 7px;
+									background: #e2b3b3;
+									width: 35px;
+    								margin: 3px;
+									span {
+										color: $color-background;
+										font-size: 12px;
+										margin-right: 3px;
+										svg {
+											color: $color-background;
+											font-size: 13px;
+											margin-top: 3px;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			.content__item {
+				display: flex;
+				align-items: center;
+				label {
+					margin-right: 10px;
+					width: 100px;
+				}
+			}
+		}
+	}
+	span {
+		color: $color-family;
+	}
+}
+label {
+	color: $color-family;
+	margin-bottom: 10px;
+	display: block;
+}

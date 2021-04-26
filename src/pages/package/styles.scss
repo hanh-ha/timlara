@@ -1,0 +1,162 @@
+.package {
+	padding: 50px 20px 0px 20px;
+	.package__filter {
+		.package__filterTitle {
+			margin-bottom: 20px;
+			.package__title--Registrationlist {
+				float: left;
+				margin-right: 10px;
+			}
+			button {
+				background: white;
+				color: #015478;
+				border: none;
+				border-radius: 0 !important;
+				width: 200px;
+				padding: 10px 0px;
+				margin-bottom: 15px;
+				&:hover {
+					background: #015478;
+					color: white;
+				}
+				&.active {
+					background: #015478;
+					color: white;
+				}
+			}
+		}
+
+		.package__button {
+			background: white;
+			padding: 10p;
+			padding: 20px 30px;
+			border-radius: 10px;
+			box-shadow: 3px 3px 5px 0px #888888;
+			.package__RegistrationList {
+				display: flex;
+				justify-content: space-between;
+				.RegistrationList__left {
+					.rs-btn {
+						border: 1px solid #015478;
+						span {
+							color: #015478;
+						}
+					}
+				}
+				.Registration-Button {
+					margin-top: 15px;
+					button {
+						float: right;
+					}
+				}
+			}
+			button {
+				background: #015478;
+				color: white;
+				width: 205px;
+				box-shadow: none;
+			}
+			.Registration-Button {
+				button {
+					background: #66b334;
+					font-weight: 600;
+					padding: 12px;
+					border: none;
+				}
+			}
+		}
+		.package__filterContent {
+			// margin-top: 20px;
+			// border: 1px solid white;
+			// border-radius: 20px;
+			// padding: 30px;
+			// background: white;
+			// box-shadow: 3px 3px 5px 0px #888888;
+			.MuiTableContainer-root {
+				border-radius: 10px;
+				border: 1px solid #015478;
+				> table.MuiTable-root {
+					.MuiTableHead-root {
+						background: #015478;
+						th {
+							color: white;
+						}
+					}
+					td {
+						color: #015478;
+						text-align: center;
+						svg {
+							color: #015478;
+						}
+						&.MuiTableCell-root {
+							border-bottom: none;
+						}
+					}
+					th {
+						color: #015478;
+						text-align: center;
+					}
+					table {
+						.MuiTableHead-root {
+							background: #3e8fa3;
+							border: 1px solid #3e8fa3;
+						}
+						tbody {
+							border: 1px solid #015478;
+							border-top: none;
+						}
+					}
+					.MuiTypography-root {
+						background: #3e8fa3;
+						margin-bottom: 0;
+						color: white;
+						padding-top: 10px;
+						padding-bottom: 15px;
+						&::after {
+							border-bottom: 1px solid white;
+							width: 260px;
+							content: '';
+							display: block;
+							margin: 0 auto;
+						}
+					}
+					.MuiTableCell-sizeSmall {
+						padding: 15px 24px 15px 16px;
+						border-bottom: none;
+					}
+					.MuiBox-root {
+						padding-left: 200px;
+					}
+					.MuiTableBody-root {
+						tr:hover {
+							box-shadow: 3px 3px 5px 0px #888888;
+						}
+					}
+				}
+			}
+			.Package-Table {
+				margin-top: 20px;
+				border: 1px solid white;
+				border-radius: 20px;
+				padding: 30px;
+				background: white;
+				box-shadow: 3px 3px 5px 0px #888888;
+				table {
+					.table-old:nth-child(2n) {
+						background: #d9e7ec;
+					}
+				}
+			}
+		}
+	}
+}
+@media only screen and (max-width: 900px) {
+	.package__RegistrationList {
+		display: block !important;
+		.Registration-Button {
+			button {
+				float: none !important;
+			}
+		}
+	}
+}

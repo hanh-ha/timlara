@@ -1,0 +1,88 @@
+.TableList__button {
+	margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+	.TableList__button {
+		button {
+			margin-right: 10px;
+		}
+	}
+}
+.TableList__content {
+	.MuiDataGrid-colCell {
+		text-align: center;
+	}
+	.MuiDataGrid-colCellTitle {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	.MuiDataGrid-root .MuiDataGrid-cellLeft {
+		text-align: center;
+	}
+	.MuiDataGrid-root .MuiDataGrid-cellRight {
+		text-align: center;
+	}
+	.MuiDataGrid-cell {
+	}
+}
+.MuiTableCell-root {
+	text-align: center !important;
+	.MuiTableSortLabel-icon {
+		display: none;
+	}
+}
+.MembersList {
+	.makeStyles-root-8 {
+		display: none;
+	}
+	.MuiTableContainer-root {
+		border-radius: 10px;
+		table {
+			thead {
+				background: #015478;
+				border-radius: 10px;
+				color: white;
+				th {
+					padding: 15px 0px;
+				}
+				span {
+					color: white;
+					font-size: 14px;
+					font-weight: 600;
+					svg {
+						background: white;
+					}
+				}
+			}
+		}
+	}
+}
+.infoPopup {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 0px;
+	span:first-child {
+		margin-right: 40px;
+		color: #015478;
+	}
+	span {
+		color: #015478;
+	}
+}
+.Account__content {
+	table {
+		thead {
+			th {
+				span {
+					svg:first-child {
+						background: white;
+					}
+				}
+			}
+		}
+	}
+}

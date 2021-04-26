@@ -1,0 +1,71 @@
+.makeStyles-modal-3,
+.makeStyles-modal-4,
+.makeStyles-modal-5,
+.makeStyles-modal-6,
+.makeStyles-modal-7,
+.makeStyles-modal-8,
+.makeStyles-modal-9 {
+	> div {
+		padding: 0;
+		border: none;
+		border-radius: 10px;
+	}
+}
+.Modal__password {
+	padding-bottom: 20px;
+	background: white;
+	border-radius: 10px;
+	.Modal__title {
+		background: #f28300;
+		padding: 10px 20px;
+		color: white;
+		text-align: center;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+		h3 {
+			font-size: 20px;
+			color: white;
+		}
+	}
+
+	.password__change,
+	.content {
+		margin: 20px;
+		background: #ffe9d4;
+		padding: 20px;
+		border-radius: 10px;
+	}
+	.password__new {
+		.MuiFormControl-root {
+			margin-bottom: 20px;
+		}
+	}
+	.submit {
+		text-align: center;
+		button {
+			border: 1px solid #f28300;
+			color: #f28300;
+			&:first-child {
+				margin-right: 20px;
+			}
+			&:hover {
+				background: #f28300;
+				color: white;
+				border: 1px solid #f28300;
+			}
+		}
+	}
+	h3 {
+		font-size: 16px;
+		color: #015478;
+	}
+	label {
+		color: #015478;
+		font-size: 14px;
+		font-style: italic;
+	}
+	input {
+		background: white;
+		border-radius: 10px;
+	}
+}

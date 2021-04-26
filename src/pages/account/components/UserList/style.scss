@@ -1,0 +1,44 @@
+.User-List {
+	margin-top: 30px;
+	.Add-user {
+		button {
+			float: right;
+			padding: 14px 40px;
+			border-radius: 7px;
+			background: #66b334;
+			color: white;
+			font-size: 17px;
+			font-weight: 600;
+			margin-bottom: 20px;
+			box-shadow: 3px 3px 5px 0px #888888;
+		}
+	}
+	.table-user {
+		clear: both;
+		.TableUser__search {
+			margin: 20px 0px;
+			button {
+				padding: 12px 40px;
+				background: #5ed6f6;
+				border-radius: 10px;
+				color: white;
+				font-size: 16px;
+				box-shadow: 3px 3px 5px 0px #888888;
+			}
+			input {
+				float: right;
+				padding: 10px 10px;
+				border-radius: 5px;
+				border: 1px solid #015478;
+				width: 300px;
+				&::placeholder {
+					font-style: italic;
+				}
+			}
+		}
+	}
+}
+.AddUser {
+	overflow-y: scroll;
+	height: 100vh;
+}

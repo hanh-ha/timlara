@@ -1,0 +1,96 @@
+{
+  "name": "backoffice",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/runtime": "^7.13.10",
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/data-grid": "^4.0.0-alpha.23",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "airbnb-prop-types": "^2.16.0",
+    "axios": "^0.21.1",
+    "chart.js": "^2.9.4",
+    "date-fns": "^2.0.0-beta.5",
+    "http-proxy-middleware": "^1.0.6",
+    "lodash": "^4.17.21",
+    "material-table": "^1.69.2",
+    "material-ui": "^0.20.2",
+    "material-ui-dropzone": "^3.5.0",
+    "material-ui-popup-state": "^1.7.2",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.33",
+    "node-sass": "^5.0.0",
+    "prop-types": "^15.7.2",
+    "query-string": "^6.14.1",
+    "react": "^16.14.0",
+    "react-booking-calendar": "^1.0.3",
+    "react-chartjs-2": "^2.11.1",
+    "react-dates": "^21.8.0",
+    "react-dates-presets": "^1.1.0",
+    "react-dom": "^16.14.0",
+    "react-hook-form": "^6.15.4",
+    "react-moment-proptypes": "^1.8.0",
+    "react-native-common-date-picker": "^2.3.4",
+    "react-pro-sidebar": "^0.6.0",
+    "react-redux": "^7.2.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-slick": "^0.28.1",
+    "react-spring": "^8.0.27",
+    "react-super-responsive-table": "^5.2.0",
+    "react-with-direction": "^1.3.1",
+    "react-with-styles": "^4.1.0",
+    "recharts": "^2.0.8",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-saga": "^1.1.3",
+    "rsuite": "^4.9.3",
+    "slick-carousel": "^1.8.1",
+    "suneditor-react": "^2.16.2",
+    "typescript": "^4.2.3",
+    "uuid": "^8.3.2",
+    "web-vitals": "^1.1.0"
+  },
+  "scripts": {
+    "start": "PORT=3005 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.8.3",
+    "@types/jest": "^26.0.20",
+    "@types/lodash": "^4.14.168",
+    "@types/node": "^14.14.33",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.2",
+    "@types/react-redux": "^7.1.16",
+    "@types/react-router": "^5.1.12",
+    "@types/react-router-dom": "^5.1.7",
+    "@types/react-slick": "^0.23.4",
+    "@types/uuid": "^8.3.0"
+  },
+  "resolutions": {
+    "moment": "2.24.0",
+    "@typescript-eslint/eslint-plugin": "2.23.0",
+    "@typescript-eslint/parser": "2.23.0"
+  }
+}

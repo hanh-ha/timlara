@@ -1,0 +1,96 @@
+.package__filterContent--RegistrationList {
+	.MuiToolbar-root {
+		display: none;
+		.MTableToolbar-actions-12 {
+			margin-bottom: 40px;
+			button {
+				width: 166px;
+				height: 45px;
+				background: #66b334;
+				border-radius: 10px;
+				display: block;
+				position: relative;
+				&::before {
+					content: 'Tạo gói tin';
+					font-size: 17px;
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+					color: white;
+				}
+				.material-icons {
+					display: none;
+				}
+			}
+		}
+	}
+	.MuiTable-root {
+		tfoot {
+			display: none !important;
+		}
+		thead {
+			th {
+				text-align: center;
+				background: #015478;
+				color: white;
+				.Mui-disabled {
+					font-size: 0;
+					&:before {
+						content: 'Thao tác';
+						font-size: 14px;
+					}
+				}
+				.MuiTableSortLabel-icon {
+					display: none;
+				}
+				&:first-child {
+					border-top-left-radius: 25px;
+				}
+				&:last-child {
+					border-top-right-radius: 25px;
+				}
+			}
+		}
+		tbody {
+			color: #015478;
+			td {
+				text-align: center;
+			}
+			tr {
+				h6 {
+					font-size: 0;
+					&::before {
+						content: 'Bạn có chắc chắn muốn xóa ?';
+						font-size: 20px;
+					}
+				}
+			}
+		}
+	}
+	.MuiPaper-root {
+		// box-shadow: none;
+		clear: both;
+		margin-top: 20px;
+		border: 1px solid white;
+		border-radius: 20px;
+		padding: 30px;
+		background: white;
+		box-shadow: 3px 3px 5px 0px #888888;
+	}
+}
+.PacketNew_button {
+	float: right;
+	margin: 30px;
+	button {
+		float: right;
+		background: #66b334;
+		margin-bottom: 40px;
+		color: white;
+		font-weight: 600;
+		padding: 12px 41px;
+		border-radius: 7px;
+		font-size: 15px;
+		text-transform: uppercase;
+	}
+}

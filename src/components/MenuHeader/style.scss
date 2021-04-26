@@ -1,0 +1,33 @@
+.page_menu{
+    height:65px;
+    border:1px solid #005776;
+    width: 100%;
+    background: white;
+    .menu_header{
+        display: flex;
+        align-items: center;
+        height: 65px;
+        justify-content: space-between;
+        .menu_header__close{
+            span{
+                margin-left: 10px;
+                svg{
+                    font-size: 40px;
+                }
+            }
+        }
+        .menu_header__usericon{
+            display: flex;
+            align-items: center;
+            margin-right: 20px;
+            span{
+                &:first-child{
+                    margin-right: 10px;
+                }
+                svg{
+                    font-size: 40px;
+                }
+            }
+        }
+    }
+}

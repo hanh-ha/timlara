@@ -1,0 +1,147 @@
+.category {
+	padding: 20px;
+	margin-top: 120px;
+	.table-wrapper {
+		max-width: 1300px;
+	}
+	.TableList__button {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		.add {
+			background: #ffb6c1;
+			padding: 5px 10px;
+			border-radius: 7px;
+			box-shadow: 3px 3px 5px 0px #888888;
+			svg {
+				color: white;
+			}
+		}
+		.TableList__button--left {
+			display: flex;
+		}
+	}
+	.TableUser__list--content {
+		box-shadow: 3px 3px 5px 0px #888888;
+		border-radius: 10px;
+		.title {
+			padding: 13px;
+			font-size: 20px;
+			font-weight: 600;
+			background: #015478;
+			color: white;
+			border-top-left-radius: 10px;
+			border-top-right-radius: 10px;
+		}
+		.category__content--item {
+			.category__item {
+				display: flex;
+				justify-content: space-between;
+				padding: 10px 0px;
+				align-items: center;
+				.left {
+					display: flex;
+					margin-right: 15px;
+					> div {
+						margin-right: 10px;
+						&.form-input {
+							width: 350px;
+						}
+					}
+				}
+				.action {
+					margin-right: 15px;
+					display: flex;
+					svg {
+						margin-left: 15px;
+					}
+					.EditIcon {
+						svg {
+							color: #f28300;
+						}
+					}
+					.DeleteIcon {
+						svg {
+							color: #5ed6f6;
+						}
+					}
+				}
+			}
+			.sub-category {
+				padding-left: 30px;
+				.form-input {
+					width: 320px !important;
+				}
+			}
+			.parent-category {
+				.form-input {
+					width: 350px;
+				}
+			}
+		}
+	}
+}
+
+.new-categoty {
+	padding: 0 !important;
+	.choose-category {
+		display: flex;
+		justify-content: space-between;
+		padding: 20px;
+	}
+	.upload-img {
+		padding: 0 20px;
+		svg {
+			font-size: 60px;
+		}
+		button {
+			padding: 7px;
+			background: #ff4a57;
+			color: white;
+			border-radius: 4px;
+		}
+	}
+	.add-properties {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 20px;
+		padding: 0 20px;
+		button {
+			padding: 6px;
+			border-radius: 4px;
+			color: white;
+			background: #ff4a57;
+		}
+	}
+	.properties-content {
+		.title {
+			background: #ffca97;
+			padding: 10px 20px;
+			display: flex;
+			justify-content: space-between;
+			box-shadow: 0px 2px 3px 0px #888888;
+		}
+		.content {
+			padding: 0 20px;
+			.content-item {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				padding: 15px 0px;
+			}
+		}
+	}
+	.item-content {
+		display: block;
+		.optimal-SEO__item {
+			.form-input {
+				width: 100%;
+			}
+		}
+	}
+	.optimal-SEO {
+		padding: 20px;
+		margin-bottom: 20px;
+	}
+}

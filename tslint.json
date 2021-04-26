@@ -1,0 +1,14 @@
+{
+	"extends": ["prettier"],
+	"linterOptions": {
+		"exclude": ["config/**/*.js", "node_modules/**/*.ts", "coverage/lcov-report/*.js"],
+		"include": ["src/***/**/*.ts", "src/***/**/*.tsx"]
+	},
+	"rules": {
+		"ordered-imports": false,
+		"object-literal-sort-keys": false,
+		"no-unused-variable": true,
+		"indent": [true, "tabs", 4]
+	},
+	"plugins": ["prettier"]
+}

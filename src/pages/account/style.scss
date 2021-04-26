@@ -1,0 +1,40 @@
+.Account {
+	padding: 20px;
+	.Account__title {
+		margin-top: 100px;
+		border-bottom: 1px solid white;
+		padding-bottom: 5px;
+		Button {
+			background: white;
+			color: #015478;
+			border: none;
+			border-radius: 0 !important;
+			padding: 10px 35px;
+			margin-right: 10px;
+			margin-bottom: 15px;
+			&:hover {
+				background: #015478;
+				color: white;
+			}
+		}
+		button.active {
+			background: #015478;
+			color: white;
+		}
+	}
+}
+
+.PacketNew__form--file {
+	.upload {
+		font-size: 0;
+
+		color: #015478;
+		width: 100%;
+		border-bottom: 1px solid;
+		padding-bottom: 10px;
+		&:before {
+			content: 'Ảnh đại diện';
+			font-size: 14px;
+		}
+	}
+}

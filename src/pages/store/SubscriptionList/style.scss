@@ -1,0 +1,23 @@
+.table-wrapper {
+	table {
+		thead {
+			th {
+				text-align: center;
+			}
+		}
+		tbody {
+			td {
+				text-align: center;
+				img {
+					width: 60px;
+					height: 60px;
+					border: 1px solid;
+					margin-top: 13px;
+				}
+				svg {
+					margin-right: 10px;
+				}
+			}
+		}
+	}
+}

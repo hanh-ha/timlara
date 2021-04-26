@@ -1,0 +1,74 @@
+.add__role {
+	color: #015478;
+	border: 1px solid #f28300;
+	border-radius: 10px;
+	padding-bottom: 20px;
+	.add__role--form {
+		background: white;
+		.add__role--content {
+			margin: 20px;
+			background: #ffe9d4;
+			padding: 20px;
+			border-radius: 10px;
+			.item {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				&:first-child {
+					margin-bottom: 10px;
+				}
+				label {
+					color: #015478;
+					margin-right: 15px;
+				}
+				input {
+					padding: 10px 10px;
+					width: 300px;
+					border: 1px solid #015478;
+					border-radius: 7px;
+					&::placeholder {
+						font-style: initial;
+					}
+				}
+			}
+		}
+		.add__role--table {
+			margin: 20px;
+			background: #ffe9d4;
+			border-radius: 10px;
+			padding: 20px;
+			.TableUser__background {
+				background: #f2f2f2;
+				border-radius: 10px;
+				table {
+					border: 1px solid;
+					thead {
+						background: none;
+						color: #015478;
+						> tr {
+							border-bottom: 1px solid;
+							th:first-child {
+								border-right: 1px solid;
+							}
+							th {
+								padding: 13px;
+								text-align: center;
+							}
+						}
+					}
+					tbody {
+						tr {
+							td:first-child {
+								border-right: 1px solid;
+							}
+							td {
+								padding: 5px;
+								text-align: center;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

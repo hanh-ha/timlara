@@ -1,0 +1,61 @@
+.PacketNew_wrapper {
+	border-radius: 10px;
+	background: white;
+	min-width: 350px;
+	.title {
+		background: #f28300;
+		text-align: center;
+		color: white;
+		padding: 10px 0px;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+		h3 {
+			font-size: 20px;
+		}
+	}
+	.PacketNew_content {
+		padding: 20px;
+		.PacketNew_note {
+			padding-top: 20px;
+			padding-bottom: 20px;
+			color: #015478;
+			font-style: italic;
+			padding-left: 20px;
+		}
+		.PacketNew__form {
+			.MuiFormControl-root {
+				display: block;
+				margin-bottom: 10px;
+				.MuiInputBase-root {
+					width: 100%;
+					margin-bottom: 10px;
+				}
+				label {
+					color: #015478;
+					font-size: 16px;
+					font-weight: 600;
+				}
+			}
+			.PacketNew__form--button {
+				text-align: center;
+				button {
+					border: 1px solid #f28300;
+					color: #f28300;
+					&:first-child {
+						margin-right: 10px;
+					}
+					&:hover {
+						background: #f28300;
+						color: white;
+					}
+				}
+			}
+			.PacketNew__form--file {
+				background: #ffe9d4;
+				padding: 20px;
+				border-radius: 10px;
+				margin-bottom: 20px;
+			}
+		}
+	}
+}

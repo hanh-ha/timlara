@@ -1,0 +1,19 @@
+.page_menu {
+	button {
+		float: right;
+		background: none;
+		box-shadow: none !important;
+		&:hover {
+			background: none;
+		}
+		.MuiButton-label {
+			span :first-child {
+				margin-right: 12px;
+			}
+			svg {
+				font-size: 45px;
+				color: #015478;
+			}
+		}
+	}
+}

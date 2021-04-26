@@ -1,0 +1,80 @@
+.chart {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 60px;
+	.filter_t {
+		.filter-overview {
+			position: relative;
+			display: flex;
+			align-items: center;
+			.filter-overview__item {
+				margin-right: 15px;
+			}
+			.dates {
+				position: absolute;
+				top: 90px;
+				width: 205px;
+				.rs-picker-toggle {
+					&:active {
+						border: 1px solid #015478;
+					}
+					&:hover {
+						border: 1px solid #015478;
+					}
+				}
+				.rs-btn {
+					padding-top: 6px;
+					padding-bottom: 6px;
+					border-radius: 7px;
+					border: 1px solid #005776;
+				}
+				span {
+					color: #015478;
+				}
+				.rs-picker-toggle-placeholder {
+					font-size: 0;
+					&::before {
+						content: 'Tùy chọn';
+						color: #015478;
+						font-size: 14px;
+					}
+				}
+			}
+		}
+	}
+}
+@media only screen and (max-width: 769px) {
+	canvas {
+		width: 100%;
+	}
+	.chart {
+		.recharts-wrapper {
+			width: 100% !important;
+		}
+		.recharts-surface {
+			width: 100% !important;
+		}
+		.recharts-legend-wrapper {
+			width: 100% !important;
+		}
+	}
+	.chart {
+		padding: 20px;
+		width: 100%;
+		margin-top: 0;
+		.filter_t {
+			.filter-overview {
+				display: block;
+				.filter-overview__item {
+					margin-bottom: 20px;
+				}
+				.dates {
+					top: 180px;
+				}
+			}
+		}
+		.chart_column {
+			margin-top: 50px;
+		}
+	}
+}

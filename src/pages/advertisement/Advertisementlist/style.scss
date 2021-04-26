@@ -1,0 +1,225 @@
+@import '../../../assets/less/variables';
+.AddAdvertisementlist__input {
+	margin-bottom: 30px;
+	input {
+		width: 100%;
+	}
+}
+.AddAdvertisementlist {
+	display: flex;
+	justify-content: space-between;
+
+	label {
+		font-weight: 600;
+	}
+
+	.AddAdvertisementlist__left {
+		margin-right: 10px;
+	}
+	.AddAdvertisementlist__item {
+		margin-bottom: 10px;
+	}
+	.MuiAccordionDetails-root {
+		display: block;
+	}
+}
+.group-button {
+	float: right;
+	display: flex;
+	flex-wrap: wrap;
+	> div {
+		margin-right: 15px;
+	}
+}
+.AdvertisingPosition-button {
+	background-color: $color-hover;
+	margin: 0px 15px 20px 0px;
+}
+.AdvertisingArea-button {
+	background-color: #5ed6f6;
+	margin: 0px 0px 20px 0px;
+}
+.AdvertisingPosition {
+	select {
+		width: 100%;
+		padding: 10px;
+	}
+}
+
+.advertisement {
+	overflow-y: unset !important;
+	.advertisement-select {
+		margin-bottom: 20px;
+	}
+	.tags-input {
+		display: flex;
+		align-items: flex-start;
+		flex-wrap: wrap;
+		min-height: 48px;
+		padding: 0 8px;
+		border: 1px solid rgb(214, 216, 218);
+		border-radius: 6px;
+		background: $color-background;
+
+		&:focus-within {
+			border: 1px solid;
+		}
+		input {
+			flex: 1;
+			border: none;
+			height: 46px;
+			font-size: 14px;
+			padding: 4px 0 0 0;
+			&:focus {
+				outline: transparent;
+			}
+		}
+		button {
+			margin: 20px auto;
+		}
+	}
+	textarea {
+		width: 100%;
+	}
+	.form_button {
+		button {
+			width: 100%;
+		}
+	}
+
+	#tags {
+		display: flex;
+		flex-wrap: wrap;
+		padding: 0;
+		margin: 8px 0 0 0;
+	}
+
+	.tag {
+		width: auto;
+		height: 32px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: #fff;
+		padding: 0 8px;
+		font-size: 14px;
+		list-style: none;
+		border-radius: 6px;
+		margin: 0 8px 8px 0;
+		background: #ffb6c1;
+		.tag-title {
+			margin-top: 3px;
+			color: $color-background;
+		}
+		.tag-close-icon {
+			display: block;
+			width: 16px;
+			height: 16px;
+			line-height: 16px;
+			text-align: center;
+			font-size: 14px;
+			margin-left: 8px;
+			color: $color-background;
+			border-radius: 50%;
+			cursor: pointer;
+		}
+	}
+	input {
+		background: none;
+	}
+	.add-tag {
+		padding: 8px 60px;
+		background: $color-hover;
+		border-radius: 7px;
+		margin-top: 20px;
+		color: $color-background;
+	}
+	.form_file {
+		text-align: center;
+	}
+	.item-content {
+		display: block;
+		height: 160px;
+		overflow-y: scroll;
+		.item-list {
+			display: flex;
+			width: 100%;
+			align-items: center;
+			margin-bottom: 10px;
+			.form-input {
+				width: 100%;
+				margin-right: 10px;
+			}
+		}
+	}
+}
+.advertisement-item {
+	background: none;
+	box-shadow: none;
+	border: 1px solid $color-family;
+	border-radius: 7px !important;
+	margin: 0px 0px 10px 0px !important;
+	.item-title {
+		border-top: 0;
+		box-shadow: none;
+		background: none;
+	}
+	&:before {
+		content: none;
+	}
+}
+
+.AdvertisingPosition {
+	.form_file {
+		background: none !important;
+		.select-advertisingPosition {
+			background: #ffe9d4;
+			padding: 20px;
+			margin-bottom: 20px;
+			border: 1px solid #d6d8da;
+			border-radius: 8px;
+			.select {
+				position: relative;
+				select::-ms-expand {
+					display: none;
+				}
+				select {
+					-webkit-appearance: none;
+					appearance: none;
+				}
+				svg {
+					position: absolute;
+					top: 8px;
+					right: 5px;
+					cursor: pointer;
+				}
+			}
+			.tag-AdvertisingPosition {
+				#tags {
+					.tag {
+						width: 100px;
+						background: none;
+						border-radius: 15px;
+						background: $color-family;
+						margin-bottom: 10px;
+						span {
+							color: $color-background;
+							&.tag-close-icon {
+								margin-top: 2px;
+							}
+						}
+					}
+				}
+			}
+		}
+		.tags-input {
+			padding: 20px;
+			background: #ffe9d4;
+		}
+	}
+}
+@media only screen and (max-width: 500px) {
+	.AddAdvertisementlist {
+		flex-wrap: wrap;
+	}
+}

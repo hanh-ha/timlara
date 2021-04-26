@@ -1,0 +1,67 @@
+.wrapper-YXn5r{
+  position:relative;
+}
+
+.pickerWrapper-QW2Xu{
+  padding:0;
+  border:0;
+
+  background:transparent;
+  outline:none;
+}
+
+.rangePickerIn-92HPG{
+  padding:20px 20px 10px 20px;
+}
+
+.rangeButton-2vFKP{
+  width:100%;
+  min-width:180px;
+
+  padding:6px 30px;
+  border-radius:4px;
+  display:block;
+  margin-bottom:10px;
+  border:1px solid rgba(0, 0, 0, 0.1);
+
+  line-height:24px;
+  cursor:pointer;
+  -webkit-user-select:none;
+     -moz-user-select:none;
+      -ms-user-select:none;
+          user-select:none;
+  font-size:1em;
+  background:transparent;
+}
+
+.rangeButton-2vFKP:hover{
+  opacity:0.9;
+}
+
+.activeRangeButton-29PJT{
+
+  background-color:#00a699;
+  color:#fff;
+}
+
+.DateRangePicker--with-caret:before, .DateRangePicker--with-caret:after{
+  content:"";
+  display:inline-block;
+  position:absolute;
+  bottom:auto;
+  border:10px solid transparent;
+  border-top:0;
+  left:50%;
+  margin-left:-10px;
+  z-index:2;
+}
+
+.DateRangePicker--with-caret:before{
+  top:-10px;
+  border-bottom-color:rgba(0, 0, 0, 0.1);
+}
+
+.DateRangePicker--with-caret:after{
+  top:-9px;
+  border-bottom-color:#fff;
+}

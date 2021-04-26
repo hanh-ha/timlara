@@ -1,0 +1,97 @@
+.body-container {
+	padding: 20px 50px;
+
+	&.blackmail {
+		svg {
+			&:hover {
+				opacity: 0.6;
+			}
+		}
+	}
+}
+
+.backmail-form.content {
+	display: flex;
+	flex-flow: column;
+	h1 {
+		margin-bottom: 24px;
+	}
+	button.btn,
+	span.btn,
+	a.btn {
+		margin: 40px 0;
+		padding: 12px;
+		border-radius: 8px;
+		text-align: center;
+
+		&:hover {
+			opacity: 0.8;
+		}
+	}
+	button {
+		width: 100%;
+		outline: none;
+		border: none;
+	}
+	button.btn-submit,
+	span.btn-submit,
+	a.btn-submit {
+		background-color: #369be5;
+		color: #fff;
+	}
+	span.btn-cancel,
+	a.btn-cancel {
+		background-color: #eaeaeb;
+		color: #000;
+	}
+	.form-action {
+		display: flex;
+		justify-content: space-between;
+		a,
+		span {
+			width: 100%;
+			margin: 40px 8px;
+		}
+	}
+	.backmail-add-field {
+		margin-top: 12px;
+		height: 58px;
+		width: 100%;
+		border: 1px dotted #ccc;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: #eaeaeb;
+		border-radius: 8px;
+		&:hover {
+			cursor: pointer;
+			opacity: 0.8;
+		}
+	}
+}
+.module-group-permissions {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #e0e0e0;
+
+	.actions-permission {
+		display: flex;
+		align-items: center;
+
+		> div {
+			margin: 0 40px;
+		}
+	}
+	label span {
+		text-transform: capitalize;
+	}
+}
+.capitalize {
+	text-transform: capitalize;
+}
+
+.slick-prev,
+.slick-next {
+	&:before {
+		color: #000 !important;
+	}
+}

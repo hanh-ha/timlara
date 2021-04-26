@@ -1,0 +1,667 @@
+.configuration {
+	padding: 20px;
+	.Breadcrumb {
+		position: static !important;
+		margin-bottom: 100px;
+	}
+	.table-wrapper {
+		display: flex;
+		justify-content: space-between;
+		max-width: 970px;
+		margin: 0 auto;
+		.configuration-item {
+			display: flex;
+			align-items: center;
+			margin-bottom: 15px;
+			span {
+				color: #015478;
+				&.configuration-item__icon {
+					padding: 10px 20px;
+					margin-right: 15px;
+					background: #f2f2f2;
+				}
+				svg {
+					font-size: 30px;
+				}
+				&.configuration-item__title {
+					cursor: pointer;
+					a {
+						color: #015478;
+					}
+				}
+			}
+		}
+	}
+}
+.contentPage {
+	padding: 20px;
+	color: #015478;
+	.Breadcrumb {
+		position: static !important;
+	}
+	.contentPage-content {
+		max-width: 1000px;
+		margin: 0px auto;
+		button {
+			margin-bottom: 20px;
+		}
+		.table-wrapper {
+			max-width: 1000px;
+			margin: 0 auto;
+			.contentPage-search {
+				position: relative;
+				input {
+					width: 100%;
+				}
+				svg {
+					position: absolute;
+					right: 10px;
+					top: 5px;
+					font-size: 27px;
+				}
+			}
+			.contentPage-table {
+				table {
+					thead {
+						th {
+							text-align: left !important;
+							border: none;
+							color: #015478;
+							font-weight: 600;
+						}
+					}
+					tbody {
+						tr {
+							td:last-child {
+								padding: 0;
+								width: 20px;
+								svg {
+									margin-right: 0;
+								}
+							}
+							td {
+								text-align: left !important;
+								border: none;
+							}
+						}
+					}
+				}
+				.sub-table {
+					tr {
+						td:last-child {
+							padding: 0;
+							width: unset;
+						}
+					}
+				}
+			}
+		}
+	}
+	.tab___content {
+		button {
+			background: #015478;
+			color: white;
+		}
+	}
+}
+
+.NewcontentPage {
+	.NewcontentPage-content {
+		margin-top: 100px;
+		display: flex;
+		.save {
+			float: right;
+			margin-bottom: 30px;
+		}
+		.NewcontentPage-left {
+			width: 100%;
+			margin-right: 30px;
+			.TableList {
+				margin-bottom: 40px;
+			}
+			h4 {
+				margin-bottom: 10px;
+			}
+			.title {
+				margin-bottom: 20px;
+				span {
+					margin-right: 30px;
+				}
+				.form-input {
+					width: 300px;
+				}
+			}
+			.content {
+				span {
+					margin-bottom: 20px;
+					display: block;
+					font-weight: 600;
+				}
+			}
+		}
+		.optimal-SEO {
+			background: white;
+			border-radius: 8px;
+			.item-content {
+				display: block;
+				margin-top: 30px;
+				input,
+				textarea {
+					width: 500px;
+				}
+				label {
+					font-weight: 600;
+				}
+				.optimal-SEO__item {
+					margin-bottom: 10px;
+				}
+			}
+			.item-title {
+				font-weight: 600;
+			}
+		}
+		.form-button {
+			display: flex;
+			margin-top: 30px;
+			button:first-child {
+				margin-right: 30px;
+			}
+		}
+		.NewcontentPage-right {
+			width: 400px;
+			span {
+				font-weight: 600;
+			}
+			.display,
+			.display-position {
+				margin-bottom: 30px;
+				width: 100%;
+			}
+			.add,
+			.delete {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+			}
+			.add {
+				margin-bottom: 20px;
+			}
+			.form-input {
+				// width: 250px;
+				// display: flex;
+				// justify-content: space-between;
+				// align-items: center;
+				button {
+					padding: 15px;
+					border-radius: 7px;
+					background: #015478;
+					color: white;
+				}
+			}
+		}
+	}
+}
+.form-modal {
+	.add-menu {
+		margin-top: 30px;
+		.form-pageContent {
+			width: 100%;
+			padding: 0;
+			margin-bottom: 20px;
+			.list-contentPage {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				padding: 10px 15px;
+				.button {
+					padding: 5px 15px;
+					background: #f28300;
+					color: white;
+					border-radius: 7px;
+					cursor: pointer;
+				}
+				&.active {
+					background: #f2f2f2;
+					border-top-left-radius: 7px;
+					border-top-right-radius: 7px;
+					border-bottom: 1px solid #015478;
+					font-weight: 600;
+					.button {
+						background: #015478;
+					}
+				}
+			}
+		}
+	}
+}
+
+.payment-Method {
+	.TableList {
+		thead {
+			th {
+				text-align: left;
+				padding: 10px 30px 10px 0px;
+			}
+		}
+		tbody {
+			td {
+				text-align: left;
+				padding: 10px 40px 10px 0px;
+				svg {
+					cursor: pointer;
+				}
+			}
+		}
+	}
+	.title {
+		font-size: 16px;
+		font-weight: 600;
+		margin-bottom: 10px;
+	}
+	.form-button {
+		max-width: 970px;
+		margin: 30px auto;
+		button {
+			float: right;
+		}
+	}
+}
+
+.momoMethod {
+	.tutorial {
+		width: 300px;
+		margin-right: 30px;
+		box-shadow: 3px 3px 5px 0px #888888;
+		background: white;
+		border-radius: 8px;
+		padding: 20px;
+		max-height: 300px;
+		strong {
+			padding-bottom: 15px;
+			display: block;
+		}
+		li {
+			list-style: none;
+			margin-bottom: 15px;
+		}
+	}
+	display: flex;
+	.setting {
+		.form-modal {
+			min-width: 430px;
+			max-width: 430px;
+			padding: 20px;
+			border: none !important;
+			box-shadow: 3px 3px 5px 0px #888888;
+			.form-modal__content {
+				padding: 0px 20px 20px 20px;
+				.setting-form {
+					margin-bottom: 20px;
+					border-bottom: 1px solid;
+					padding-bottom: 10px;
+					.item {
+						margin-bottom: 20px;
+						.form-input {
+							width: 100%;
+						}
+						&.unactive {
+							label,
+							input {
+								color: #888888;
+							}
+							input {
+								border-color: #888888;
+								background: #f2f2f2;
+							}
+						}
+						&.title {
+							input::placeholder {
+								color: #015478;
+								font-size: 15px;
+								opacity: 1;
+							}
+						}
+						input::placeholder {
+							color: #015478;
+							font-size: 13px;
+						}
+					}
+				}
+				.form_button {
+					text-align: left;
+					.check-box {
+						margin-bottom: 30px;
+					}
+				}
+			}
+		}
+	}
+	.check-box {
+		span {
+			color: #f28300;
+			svg {
+				color: #f28300;
+			}
+		}
+	}
+}
+
+.posting-List {
+	padding: 20px;
+	.Account__title {
+		button {
+			background: #015478;
+			color: white;
+		}
+	}
+	.search {
+		margin-bottom: 30px;
+		display: flex;
+		input {
+			padding: 12px;
+			width: 100%;
+			border: 1px solid #015478;
+			border-top-left-radius: 7px;
+			border-bottom-left-radius: 7px;
+		}
+		button {
+			width: 150px;
+			background: #015478;
+			color: white;
+			border-top-right-radius: 7px;
+			border-bottom-right-radius: 7px;
+		}
+	}
+	.TableList__button {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		.action {
+			display: flex;
+			.icon {
+				width: 50px;
+				height: 50px;
+				background: #f28300;
+				margin-left: 10px;
+				position: relative;
+				border-radius: 100%;
+				cursor: pointer;
+				svg {
+					font-size: 30px;
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+					color: white;
+				}
+			}
+		}
+		button {
+			margin-right: 15px;
+			margin-bottom: 15px;
+		}
+		input {
+			padding: 14px 10px;
+			width: 300px;
+		}
+		.action {
+			float: right;
+		}
+	}
+}
+.stacktable {
+	width: 100%;
+}
+.st-head-row {
+	padding-top: 1em;
+}
+.st-head-row.st-head-row-main {
+	font-size: 1.5em;
+	padding-top: 0;
+}
+.st-key {
+	width: 49%;
+	text-align: right;
+	padding-right: 1%;
+}
+.st-val {
+	width: 49%;
+	padding-left: 1%;
+}
+
+/* RESPONSIVE EXAMPLE */
+
+.stacktable.large-only {
+	display: table;
+}
+.stacktable.small-only {
+	display: none;
+}
+
+@media (max-width: 800px) {
+	.stacktable.large-only {
+		display: none;
+	}
+	.stacktable.small-only {
+		display: table;
+	}
+}
+
+h2 {
+	text-align: center;
+	padding-top: 10px;
+}
+
+table caption {
+	padding: 0.5em 0;
+}
+
+.p {
+	text-align: center;
+	padding-top: 140px;
+	font-size: 14px;
+}
+
+.SeeDetails {
+	text-align: unset;
+	background: none;
+	padding: 0 !important;
+	.infoDetails,
+	.info-user {
+		padding: 20px;
+		background: #ffe9d4;
+		border-radius: 10px;
+	}
+	.item {
+		margin-bottom: 15px;
+		&.title {
+			.form-input {
+				width: 100%;
+			}
+		}
+		&.left {
+			float: left;
+		}
+		&.right {
+			float: right;
+		}
+		&.describe {
+			clear: both;
+			.form-input {
+				width: 100%;
+			}
+		}
+	}
+	.info-user {
+		display: flex;
+		margin-top: 20px;
+		.avata {
+			margin-right: 15px;
+			> div {
+				width: 80px;
+				height: 80px;
+			}
+		}
+		.info {
+			.info-item {
+				margin-bottom: 15px;
+				display: flex;
+				align-items: center;
+				input {
+					border: none;
+					border-bottom: 1px solid;
+					background: none;
+					width: 100%;
+					padding-left: 5px;
+				}
+				label {
+					margin-bottom: 0;
+					margin-right: 10px;
+					width: 120px;
+				}
+				span {
+					border-bottom: 1px solid;
+					width: 100%;
+				}
+			}
+		}
+	}
+}
+.post {
+	.title {
+		font-size: 16px;
+		font-weight: 600;
+		margin-bottom: 20px;
+	}
+	.post-content {
+		margin-bottom: 20px;
+		width: 100%;
+		float: left;
+		.post-item {
+			margin-bottom: 15px;
+			&.left {
+				float: left;
+			}
+			&.right {
+				float: right;
+			}
+		}
+	}
+	.form_button {
+		clear: both;
+	}
+}
+.hide_me {
+	display: none;
+}
+
+li[data-dtr-index='4'] {
+	display: none;
+}
+li[data-dtr-index='5'] {
+	display: none;
+}
+#columns-dropdown {
+	list-style: none;
+	padding: 15px 10px;
+	li {
+		span {
+			padding: 3px;
+		}
+	}
+}
+
+@media only screen and (max-width: 769px) {
+	.posting-List {
+		.TableList__button {
+			display: block;
+			.action {
+				float: none;
+				margin-top: 10px;
+			}
+			input {
+				width: 100%;
+				padding: 10px;
+				margin-top: 5px;
+			}
+		}
+	}
+	.form-modal {
+		.post {
+			.post-content {
+				.post-item {
+					&.left,
+					&.right {
+						float: none;
+						select {
+							width: 100%;
+						}
+					}
+				}
+			}
+		}
+	}
+	.configuration {
+		.table-wrapper {
+			display: block;
+		}
+	}
+	.payment-Method {
+		.TableList {
+			tbody {
+				th,
+				td {
+					padding: 10px 10px 10px 0px;
+				}
+			}
+		}
+		.momoMethod {
+			display: block;
+			.tutorial {
+				margin-bottom: 20px;
+				width: 100%;
+			}
+			.setting {
+				.form-modal {
+					max-width: 100%;
+					width: 100%;
+					min-width: 100%;
+				}
+			}
+		}
+	}
+}
+@media only screen and (max-width: 500px) {
+	.form-modal {
+		.SeeDetails {
+			.item {
+				&.left,
+				&.right {
+					width: 100%;
+					.form-input {
+						width: 100%;
+					}
+				}
+			}
+		}
+	}
+}
+@media only screen and (max-width: 992px) {
+	.NewcontentPage {
+		.NewcontentPage-content {
+			flex-direction: column-reverse;
+			.form-input {
+				width: 100% !important;
+			}
+			.NewcontentPage-right {
+				width: 300px;
+				.form-input {
+					button {
+						padding: 10px;
+						font-size: 13px;
+					}
+				}
+			}
+		}
+	}
+}

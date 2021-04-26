@@ -1,0 +1,500 @@
+@import '.././assets/less/variables';
+.filter {
+	margin-top: 20px;
+	background: $color-background;
+	padding: 10px;
+	padding: 20px 30px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px 0px #888888;
+	position: relative;
+
+	.MuiPaper-rounded {
+		box-shadow: none;
+	}
+	.MuiInputBase-root:before {
+		content: none;
+	}
+	.MuiInputBase-root::after {
+		content: none;
+	}
+	.MuiInputBase-root {
+		input {
+			border: 1px solid $color-family;
+			border-radius: 7px;
+			padding-left: 8px;
+			font-family: 'Roboto', sans-serif;
+			&::placeholder {
+				color: $color-family;
+				opacity: 0.8;
+				font-family: 'Roboto', sans-serif;
+				font-size: 14px;
+			}
+		}
+	}
+	.MuiInputLabel-formControl {
+		top: -16px;
+		left: 10px;
+	}
+	.MuiInput-formControl {
+		margin-top: 0;
+	}
+	.MuiFormControl-root {
+		margin: 0px;
+		min-width: 173px;
+		border: 1px solid $color-family;
+		border-radius: 7px;
+		padding-left: 8px;
+		label {
+			color: $color-family;
+			font-style: italic;
+			.Mui-focused {
+				display: none;
+			}
+		}
+	}
+	.rs-btn {
+		float: left;
+		border: 1px solid $color-family;
+		span {
+			color: $color-family;
+			opacity: 0.8;
+		}
+	}
+	.MuiPaper-root {
+		width: 205px;
+	}
+	.MuiGrid-spacing-xs-3 {
+		.MuiGrid-item {
+			padding: 0;
+		}
+	}
+	.button_search {
+		background: $color-family;
+		color: $color-background;
+		width: 173px;
+		box-shadow: none;
+	}
+	.Registration-Button {
+		button {
+			background: $color-green;
+			font-weight: 600;
+			padding: 12px;
+			border: none;
+		}
+	}
+	.filter_bottom {
+		> div {
+			max-width: 250px;
+		}
+	}
+}
+
+.button_add {
+	float: right;
+	padding: 14px 40px;
+	border-radius: 7px;
+	background: $color-green;
+	color: $color-background;
+	font-size: 17px;
+	font-weight: 600;
+	box-shadow: 3px 3px 5px 0px #888888;
+}
+.button_danger {
+	width: 130px;
+	border-radius: 7px;
+	background: $color-hover;
+	color: $color-background;
+	font-size: 14px;
+	box-shadow: 3px 3px 5px 0px #888888;
+	padding: 10px 0px;
+}
+.button_save {
+	width: 130px;
+	border-radius: 7px;
+	background: $color-family;
+	color: $color-background;
+	font-size: 14px;
+	box-shadow: 3px 3px 5px 0px #888888;
+	border: none;
+	padding: 10px 0px;
+}
+.button_blue {
+	background: #5ed6f6;
+	color: white;
+	border-radius: 7px;
+	box-shadow: 3px 3px 5px 0px #888888;
+	border: none;
+	margin-right: 15px;
+	font-size: 14px;
+	text-transform: capitalize;
+	padding: 8px 15px;
+}
+
+.table-wrapper {
+	padding: 30px 30px 40px 30px;
+	background: $color-background;
+	border-radius: 10px;
+	margin-top: 20px;
+	box-shadow: 3px 3px 5px 0px #888888;
+	clear: both;
+	.MuiPaper-root {
+		border: none;
+		box-shadow: none;
+	}
+}
+
+.MuiButton-root.button_blue {
+	background: $color-blue;
+	color: $color-background;
+	border-radius: 7px;
+	box-shadow: 3px 3px 5px 0px #888888;
+	border: none;
+	margin-right: 15px;
+	font-size: 14px;
+	text-transform: capitalize;
+	margin-bottom: 15px;
+	&:hover {
+		color: $color-blue;
+	}
+}
+svg {
+	color: $color-family;
+}
+.makeStyles-paper-24 {
+	padding: 0;
+	border: none;
+	border-radius: 10px;
+}
+
+.form-modal {
+	background: $color-background;
+	border-radius: 10px;
+	border: 1px solid $color-hover !important;
+	min-width: 520px;
+	max-width: 540px;
+	border-radius: 10px;
+	.form-modal__title {
+		background: $color-hover;
+		text-align: center;
+		color: $color-background;
+		padding: 10px 0px;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+		font-size: 20px;
+		h3 {
+			font-size: 20px;
+		}
+	}
+	.form-modal__content {
+		padding: 0px 20px 20px 20px;
+		.note {
+			padding-top: 15px;
+			padding-bottom: 15px;
+			color: $color-family;
+			font-style: italic;
+			padding-left: 20px;
+			font-style: normal;
+			padding-left: 0;
+			p {
+			}
+			span {
+				.MuiButtonBase-root {
+					padding-left: 0;
+				}
+			}
+		}
+		.form {
+			.MuiFormControl-root {
+				display: block;
+				margin-bottom: 10px;
+				.MuiInputBase-root {
+					width: 100%;
+					margin-bottom: 10px;
+					margin-top: 20px;
+				}
+				label {
+					color: $color-family;
+					font-size: 16px;
+					font-weight: 600;
+				}
+			}
+			.form_file {
+				background: #ffe9d4;
+				padding: 20px;
+				border-radius: 10px;
+				margin-bottom: 20px;
+				margin-top: 20px;
+				.form_file_border {
+					border: 1px solid $color-family;
+					padding: 15px;
+					border-radius: 10px;
+					background: $color-background;
+					h3 {
+						font-size: 19px;
+						text-align: center;
+						margin-bottom: 20px;
+						color: $color-family;
+					}
+				}
+			}
+			.role {
+				width: 100%;
+				margin-bottom: 10px;
+				border: 1px solid $color-family;
+				border-radius: 7px;
+				padding-left: 15px;
+				&.MuiInput-underline::before {
+					border-bottom: none;
+					svg {
+						border-bottom: none;
+					}
+				}
+			}
+			.role-lable {
+				margin-bottom: 10px;
+				margin-top: 26px;
+			}
+			.MuiInputLabel-animated {
+				font-size: 22px;
+				color: $color-family;
+				font-weight: 600;
+			}
+		}
+	}
+}
+.form_button {
+	text-align: center;
+	margin-top: 20px;
+	button {
+		span {
+			color: $color-hover;
+		}
+		&:first-child {
+			margin-right: 10px;
+		}
+		&:hover {
+			background: $color-hover;
+			span {
+				color: $color-background !important;
+			}
+		}
+	}
+}
+
+.TableUser {
+	.TableUser__list {
+		Table {
+			thead {
+				background: $color-family;
+				color: $color-background;
+				font-size: 14px;
+				text-align: center;
+				border-top-left-radius: 10px;
+				border-top-right-radius: 10px;
+				th {
+					padding: 15px 0px;
+					.MuiIconButton-label {
+						background: $color-background;
+					}
+				}
+			}
+			tbody {
+				text-align: center;
+				.action {
+					display: flex;
+					justify-content: center;
+					svg {
+						margin-left: 5px;
+					}
+				}
+				tr:hover {
+					box-shadow: 3px 3px 5px 0px #888888;
+				}
+				tr:nth-child(2n) {
+					background: #d9e7ec;
+				}
+				td {
+					padding: 15px 0px;
+				}
+			}
+		}
+	}
+}
+.form-input {
+	border: 1px solid $color-family;
+	padding: 7px;
+	border-radius: 7px;
+	background: $color-background;
+	width: 205px;
+	color: $color-family;
+	opacity: 0.8;
+	&::placeholder {
+		color: $color-family;
+	}
+}
+.page-wrapper {
+	.tab__wrapper {
+		position: relative;
+		padding: 20px;
+		.Breadcrumb {
+			position: absolute;
+			top: 20px;
+			span {
+				text-transform: uppercase;
+				color: $color-family;
+				font-size: 20px;
+			}
+		}
+	}
+}
+.code-Packet {
+	padding: 0px 0px 15px 0px;
+	span {
+		color: $color-family;
+	}
+}
+.Accordion {
+	.item {
+		background: none;
+		box-shadow: none;
+		border-radius: 8px !important;
+		width: 100%;
+		margin-bottom: 10px;
+		color: $color-family;
+		input {
+			&::placeholder {
+				color: $color-family;
+			}
+		}
+		.item-title {
+			border-top: none;
+			box-shadow: none;
+			min-height: 0;
+			> div {
+				margin: 0;
+				padding: 0;
+			}
+		}
+	}
+	.item-content {
+		button {
+			width: 160px;
+			margin-top: 10px;
+			&:hover {
+				background: #ffb6c1;
+				color: $color-background;
+				border: none;
+				border: 1px solid #ffb6c1;
+			}
+		}
+	}
+}
+label {
+	color: #015478;
+	margin-bottom: 10px;
+	display: block;
+	font-weight: 600;
+}
+.columns-dropdown {
+	display: none;
+	.seemore-table {
+		margin-bottom: 10px;
+		color: #f28300;
+		padding: 0;
+	}
+}
+
+.filter-top {
+	display: flex;
+	margin-bottom: 15px;
+	flex-wrap: wrap;
+}
+.filter-bottom {
+	display: flex;
+	flex-wrap: wrap;
+}
+.filter-item {
+	margin-right: 20px;
+	margin-bottom: 15px;
+	button {
+		background: #015478;
+		color: white;
+		width: 205px;
+		box-shadow: none;
+		&:hover {
+			background: #015478;
+		}
+	}
+}
+.dates {
+	width: 205px;
+}
+.rs-btn {
+	border: 1px solid #015478;
+	span {
+		color: #015478;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.Breadcrumb {
+		span {
+			padding: 0px 3px;
+			font-size: 15px !important;
+			svg {
+				font-size: 15px !important;
+			}
+		}
+	}
+	.TableUser {
+		.TableUser__list {
+			overflow-x: scroll;
+			table {
+				width: 768px;
+				th,
+				td {
+					font-size: 13px;
+				}
+			}
+		}
+	}
+	.columns-dropdown {
+		display: block;
+	}
+	.form-modal {
+		max-width: 100%;
+		min-width: 100%;
+		width: 100%;
+	}
+	.filter-top {
+		margin-bottom: 0 !important;
+	}
+}
+@media only screen and (min-width: 769px) {
+	.Breadcrumb {
+		span {
+			padding: 0px 6px;
+			svg {
+				font-size: 15px !important;
+			}
+		}
+	}
+}
+@media only screen and (max-width: 500px) {
+	.filter-item {
+		width: 100%;
+		margin-right: 0;
+		.form-input {
+			width: 100%;
+		}
+		button {
+			width: 100%;
+		}
+	}
+	.dates {
+		width: 100%;
+		.rs-picker-daterange {
+			width: 100% !important;
+		}
+	}
+}
